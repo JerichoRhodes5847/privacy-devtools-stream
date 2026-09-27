@@ -1,0 +1,8 @@
+{
+  "name": "privacy-devtools-stream",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"start": "tsx src/devtools_stream.ts", "test": "tsx test/devtools_stream.test.ts"},
+  "dependencies": {"openai": "^4.80.0", "zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.7.2", "@types/node": "^22.10.2"}
+}
